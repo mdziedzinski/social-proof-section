@@ -3,6 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- displays site properly based on user's device -->
 
     <link
@@ -26,36 +39,201 @@
     </style>
   </head>
   <body>
-    10,000+ of our users love our products.
+    <div class="bg-top"></div>
+    <div class="bg-bottom"></div>
+    <div class="container p-5">
+      <!-- master container -->
+      <div class="row">
+        <div class="main-text col-6">
+          <h1 class="main-text-h1">10,000+ of our users love our products.</h1>
+          <p class="main-p">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </div>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+        <div class="main-stars col-6">
+          <!-- 1st star rating start -->
+          <div class="star-rating first-rating d-flex align-items-center">
+            <div class="stars-container">
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+            </div>
+            <p class="star-rating-text">Rated 5 Stars in Reviews</p>
+          </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+          <!-- 2 star rating end-->
+
+          <div class="star-rating second-rating d-flex align-items-center">
+            <div class="stars-container">
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+            </div>
+            <p class="star-rating-text">Rated 5 Stars in Raport Guru</p>
+          </div>
+
+          <!-- 2 star-rating end -->
+
+          <!-- 3 star rating start -->
+
+          <div class="star-rating thrd-rating d-flex align-items-center">
+            <div class="stars-container">
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+              <img
+                src="./images/icon-star.svg"
+                alt="star icon"
+                class="star-rating-stars"
+              />
+            </div>
+            <p class="star-rating-text">Rated 5 Stars in BesTech</p>
+          </div>
+        </div>
+
+        <!-- 1st row end-->
+      </div>
+      <div class="testiomonials">
+        <div class="row mt-5 mb-5">
+          <!-- 2 row start -->
+
+          <div class="col-4">
+            <div class="testimonial-card first-card mt-0">
+              <div class="testimonial-name d-flex mb-4">
+                <img
+                  src="./images/image-colton.jpg"
+                  alt="person colton image"
+                />
+                <div class="testimonial-credentials d-flex flex-column mx-4">
+                  <p class="testimonial-name-p m-0">Colton Smith</p>
+                  <span class="testimonial-name-span">Verified Buyer</span>
+                </div>
+              </div>
+              <p class="testimonial-p">
+                "We needed the same printed design as the one we had ordered a
+                week prior. Not only did they find the original order, but we
+                also received it in time. Excellent!"
+              </p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="testimonial-card sec-card mt-2">
+              <div class="testimonial-name d-flex mb-4">
+                <img src="./images/image-irene.jpg" alt="person irene image" />
+                <div class="testimonial-credentials d-flex flex-column mx-4">
+                  <p class="testimonial-name-p m-0">Irene Roberts</p>
+                  <span class="testimonial-name-span">Verified Buyer</span>
+                </div>
+              </div>
+              <p class="testimonial-p">
+                "Customer service is always excellent and very quick turn
+                around. Completely delighted with the simplicity of the purchase
+                and the speed of delivery."
+              </p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="testimonial-card thrd-card mt-4">
+              <div class="testimonial-name d-flex mb-4">
+                <img src="./images/image-anne.jpg" alt="person anne image" />
+                <div class="testimonial-credentials d-flex flex-column mx-4">
+                  <p class="testimonial-name-p m-0">Anne Wallace</p>
+                  <span class="testimonial-name-span">Verified Buyer</span>
+                </div>
+              </div>
+              <p class="testimonial-p">
+                "Put an order with this company and can only praise them for the
+                very high standard. Will definitely use them again and recommend
+                them to everyone!"
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 row end -->
+        </div>
+        <!-- testiomonials end -->
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/mdziedzinski/">Marcin Dziedzinski</a>.
+      </div>
+
+      <!-- master container end -->
     </div>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

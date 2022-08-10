@@ -1,0 +1,105 @@
+@use "./partials/_colors" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  // background-color: $color-neutral-white;
+  .bg-top {
+    top: 0;
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    width: 100%;
+    height: 20rem;
+    background-repeat: no-repeat;
+
+    position: absolute;
+  }
+  .bg-bottom {
+    bottom: 0;
+    right: 30rem;
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+    width: 100%;
+    height: 20rem;
+    background-repeat: no-repeat;
+
+    position: absolute;
+  }
+}
+
+.container {
+  margin-top: 7rem;
+}
+.main-text {
+  h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: $color-primary-vdarkmagenta;
+    line-height: 2.5rem;
+    max-width: 20rem;
+  }
+  p {
+    margin-top: 1rem;
+    color: $color-primary-vdarkmagenta;
+    max-width: 25rem;
+  }
+}
+
+.star-rating {
+  background-color: $color-neutral-lgmagenta;
+  width: 27rem;
+  height: 3rem;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.second-rating {
+  margin-left: 3rem;
+}
+
+.thrd-rating {
+  margin-left: 6rem;
+}
+
+.star-rating-stars {
+  width: 17px;
+  height: 16px;
+  margin: 0 3px;
+}
+
+.stars-container {
+  margin: 1em;
+}
+
+.star-rating-text {
+  margin: 1em;
+  font-weight: bold;
+  color: $color-primary-vdarkmagenta;
+}
+
+.testimonial-card {
+  border-radius: 3%;
+  padding: 2rem;
+  height: 15rem;
+  background-color: $color-primary-vdarkmagenta;
+  .testimonial-name {
+    img {
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    .testimonial-name-p {
+      color: $color-neutral-white;
+    }
+    .testimonial-name-span {
+      color: $color-primary-softpink;
+    }
+  }
+  .testimonial-p {
+    color: $color-neutral-white;
+  }
+}
