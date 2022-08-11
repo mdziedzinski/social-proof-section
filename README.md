@@ -16,3 +16,8 @@ This is my solution for the [Frontend Mentor](https://www.frontendmentor.io) cha
 ## Live website
 
 - [GitHub Pages](https://mdziedzinski.github.io/social-proof-section/)
+
+
+
+
+Time to finish: 4h
