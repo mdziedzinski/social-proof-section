@@ -19,5 +19,4 @@ This is my solution for the [Frontend Mentor](https://www.frontendmentor.io) cha
 
 
 
-
-Time to finish: 4h
+⏰Time to finish: 4h
