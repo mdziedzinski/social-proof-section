@@ -43,18 +43,10 @@ body .bg-bottom {
 
 .star-rating {
   background-color: hsl(300deg, 24%, 96%);
-  width: 27rem;
+  width: 100%;
   height: 3rem;
   border-radius: 5px;
   margin: 1rem;
-}
-
-.second-rating {
-  margin-left: 3rem;
-}
-
-.thrd-rating {
-  margin-left: 6rem;
 }
 
 .star-rating-stars {
@@ -76,7 +68,7 @@ body .bg-bottom {
 .testimonial-card {
   border-radius: 3%;
   padding: 2rem;
-  height: 15rem;
+  height: 100%;
   background-color: hsl(300deg, 43%, 22%);
 }
 .testimonial-card .testimonial-name img {
@@ -92,5 +84,51 @@ body .bg-bottom {
 }
 .testimonial-card .testimonial-p {
   color: hsl(0deg, 0%, 100%);
+}
+
+@media (max-width: 992px) {
+  .container {
+    margin-top: 3rem;
+  }
+  .main-text,
+.main-stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .first-rating,
+.second-rating,
+.thrd-rating {
+    margin-left: 0;
+  }
+}
+@media (max-width: 576px) {
+  .star-rating {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .star-rating .stars-container {
+    margin: 0.5rem;
+  }
+  .star-rating .star-rating-text {
+    margin: 0.5rem;
+  }
+  body .bg-top {
+    top: 0;
+    background-image: url(../images/bg-pattern-top-mobile.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  body .bg-bottom {
+    bottom: 0;
+    background-image: url(../images/bg-pattern-bottom-mobile.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
 }
 /*# sourceMappingURL=main.css.map */
